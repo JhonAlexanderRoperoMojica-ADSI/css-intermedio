@@ -4,16 +4,21 @@
     font-weight: 900;
 }
 
-.caja1{
-    height: 200px;
-    width: 200px;
-    background: slateblue;
-    transition: background 1s, height 1s, width 1s;
-    border: 3px solid red;
+.caja{
+    display: flex;
+    height: 300px;
 }
 
-.caja1:hover{
-    background: darkslateblue;
-    height: 300px;
-    width: 300px;
+
+
+.caja div{
+    flex: 1;
+    display: flex;
+    margin: 4px;
+    border: 1 solid red;
+    min-width: 180px;
+}
+
+.caja img{
+    object-fit: cover;
 }
