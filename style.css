@@ -4,30 +4,16 @@
     font-weight: 900;
 }
 
-form{
-    margin: 100px auto;
-    display: block;
-    background-color: #555;
-    padding: 100px;
-    width: 50%;
+.caja1{
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: background 1s, height 1s, width 1s;
+    border: 3px solid red;
 }
 
-input{
-    padding: 6px;
-    width: 100%;
+.caja1:hover{
+    background: darkslateblue;
+    height: 300px;
+    width: 300px;
 }
-
-input::placeholder{
-    color: blueviolet;
-    font-size: 1.3em;
-}
-
-input::selection{
-    color: white;
-    background-color: blueviolet;
-}
-
-input::before{
-    content: "alonsoo";
-}
-
